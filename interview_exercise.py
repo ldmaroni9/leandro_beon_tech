@@ -40,6 +40,5 @@ ORDER BY 2 DESC
 LIMIT 1
 """
 
-resultado = pd.read_sql_query(query, conn)
-print(resultado)
-#SELECT , COUNT(DISTINCT dest) AS destinations_count
+result = pd.read_sql_query(query, conn)
+print(result)
